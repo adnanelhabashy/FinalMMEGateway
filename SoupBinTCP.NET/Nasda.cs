@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace NasdaqMME.Client
 {
+    //Hi
     public class MMEMessage
     {
         public long ClientSequenceNr { get; set; }
