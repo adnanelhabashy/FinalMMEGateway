@@ -15,7 +15,7 @@ namespace Server
             {
                 command = Console.ReadLine();
             }
-            await server.Shutdown();
+             server.Shutdown();
         }
     }
 }

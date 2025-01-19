@@ -42,5 +42,20 @@ namespace Server
         {
             throw new System.NotImplementedException();
         }
+
+        public Task OnLogout(string clientId)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task OnDebug(string message, string clientId)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task OnSessionStart(string sessionId)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

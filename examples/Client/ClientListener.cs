@@ -29,5 +29,15 @@ namespace Client
         {
             throw new System.NotImplementedException();
         }
+
+        public Task OnDebug(string message)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task OnLoginReject(char rejectReasonCode)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
