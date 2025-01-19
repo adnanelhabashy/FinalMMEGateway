@@ -62,7 +62,7 @@ namespace Client
                 ActorId = 388,
                 OrderBookId = 57,
                 ReferencePriceSource = 1, // External reference price
-                ReferencePrice = -45000,
+                ReferencePrice = 55000,
                 Timestamp = 0 // System will use current time
             };
 
